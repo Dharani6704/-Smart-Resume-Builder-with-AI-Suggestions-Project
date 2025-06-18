@@ -1,0 +1,55 @@
+/* src/home.css */
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.auth-buttons button,
+.go-to-builder-btn {
+  margin-left: 10px;
+  background-color: white;
+  color: #4a90e2;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-buttons button:hover,
+.go-to-builder-btn:hover {
+  background-color: #e6f0fb;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.welcome-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #555;
+}
